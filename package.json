@@ -1,0 +1,36 @@
+{
+  "name": "gamecrew",
+  "version": "0.0.0",
+  "description": "Party game Plateform",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-watch": "^2.0.6",
+    "webpack": "^2.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+  ]},
+  "keywords": [
+    "party",
+    "game",
+    "platform",
+    "situation"
+  ],
+  "author": "Huu-Tien TRUONG",
+  "license": "SEE LICENSE IN LICENSE"
+}
