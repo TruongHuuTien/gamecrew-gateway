@@ -78,6 +78,9 @@ router.post('/answer', (req, res) => {
         answer.score = getScore(rows, action_id);
         res.send(answer);
       });
+    } else {
+      answer.score = 0;
+      res.send(answer);
     }
   });
   return true;
